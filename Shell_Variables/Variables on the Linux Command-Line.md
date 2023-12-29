@@ -13,7 +13,7 @@ This section describes the following:
 
 Before diving into declaring a variable, it's important to familiarize ourselves with another command: the `echo` command. Essentially, `echo` allows us to output text to the terminal. For instance, by using `echo "Hello World!"`, whatever is enclosed within the double quotes will be displayed when executed.
 
-![echo command](https://github.com/soulimane-mammar/HTG/blob/main/Shell_Variables/echo_hello_world.png?raw=true)
+![echo command](https://github.com/soulimane-mammar/MS-Blog/blob/main/Shell_Variables/echo_hello_world.png?raw=true)
 
 Now let's create a variable. A variable name consist of any number of letters, digits, or underscores. Upper and lowercase letters are distinct, and names may not start with a digit. Variables are assigned values using the `=` operator. **There must not be any whitespace between the variable name and the value.**
 
@@ -241,6 +241,6 @@ Bash process these variables for the following special escape sequences:
 
 #### Example
 
-![Changing Prompts](https://github.com/soulimane-mammar/HTG/blob/main/Shell_Variables/changing_prompts.png?raw=true)
+![Changing Prompts](https://github.com/soulimane-mammar/MS-Blog/blob/main/Shell_Variables/changing_prompts.png?raw=true)
 
 In the provided example, the initial line defines the `PS1` variable, altering the shell prompt format. Subsequently, as seen in the second line when changing directory, the prompt changes accordingly. Line 4 modifies the `PS2` variable, influencing the prompt displayed during multi-line commands, as shown in the following command execution.
