@@ -206,9 +206,9 @@ Associative arrays are arrays in which indices are strings. They are declared us
 assoc=([one]=1 two=[2] [three]=3)
 ```
 
-Use ${assoc[one]}, ${assoc[two]} and ${assoc[three]} to access the value
+Use `${assoc[one]}`, `${assoc[two]}` and `${assoc[three]}` to access the value
 
-# Prompt Strings
+## Prompt Strings
 
 Bash provides five customizable prompt strings:
 
